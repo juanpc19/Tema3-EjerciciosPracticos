@@ -2,11 +2,11 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio7 {
+public class Ejercicio6 {
 
 	public static void main(String[] args) {
 		
-		int numeroIntroducido=0;
+		int numeroIntroducido;
 		
 		Scanner dogma = new Scanner(System.in);
 		
@@ -27,8 +27,7 @@ public class Ejercicio7 {
 		}
 		
 		dogma.close();
-
-
+		
 	}
 
 }

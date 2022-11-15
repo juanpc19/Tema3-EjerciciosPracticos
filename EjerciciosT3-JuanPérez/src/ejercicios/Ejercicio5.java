@@ -2,18 +2,19 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio5 {
 
 	public static void main(String[] args) {
-		//desde el menor de y y b 15 y 20 seria 15 decreciente
-		
+
 		int numeroA;
 		
 		int numeroB;
 		
+		int numeroMayor=0;
+		
 		int numeroMenor=0;
 		
-		int mcd=0;
+		int mcm=0;
 		
 		Scanner dogma = new Scanner(System.in);
 		
@@ -26,24 +27,27 @@ public class Ejercicio4 {
 		numeroB = dogma.nextInt();
 		
 		if (numeroA<numeroB) {
+				
+				numeroMayor=numeroB;
+				numeroMenor=numeroA;
+				
+			} else if (numeroB<numeroA) {
+				
+				numeroMayor=numeroA;
+				numeroMenor=numeroB;
+			}
 			
-			numeroMenor=numeroA;
+		for (int i=numeroMayor; i>0; i++) {
 			
-		} else if (numeroB<numeroA) {
-			
-			numeroMenor=numeroB;
-		}
-		
-		for (int i=numeroMenor; i>0; i--) {
-			
-			if ((numeroA%i==0) && (numeroB%i==0)) {
-				mcd=i;
+			if ((i%numeroMayor==0) && (i%numeroMenor==0)) {
+				mcm=i;
 				break;
 					}
 				}
-			System.out.print(mcd);
+			System.out.print(mcm);
 			
 		dogma.close();
+
 
 	}
 
