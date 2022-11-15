@@ -11,14 +11,13 @@ public class Ejercicio2 {
 		
 		int k=0; //Declaro variable y la inicializo a 0, guardare en ella el valor del contador de numeros primos
 				
-		boolean esPrimo;
+		boolean esPrimo; //Declaro variable en la que guardare si primo es true o false
 		
 		//Creo un Scanner, lo llamo dogma y lo importo
 		Scanner dogma = new Scanner(System.in);
 
 		// Pido un número entero positivo al usuario por pantalla
-		System.out.println("Introduzca un numero entero positivo hasta el que analizar desde uno"
-				+ " para determinar cuantos numero primos hay en dicho rango:");
+		System.out.println("Introduzca un numero entero positivo: ");
 		
 		//Doy valor a variable numeroIntroducido mediante uso del Scanner
 		numeroIntroducido = dogma.nextInt();
@@ -28,13 +27,18 @@ public class Ejercicio2 {
 			
 			
 			//bucle para sumar 1 al numero a comprobar
-			
+			//declaro variable i y la inicializo con valor 2
+			//establezco de condicion de bucle i menor o igual que numero introducido 
+			//establezco el incremento en i+1
 			// Recorremos los números desde 2 (el primer numero que puede ser primo) hasta numeroIntroducido 
 			for (int i=2; i <= numeroIntroducido; i++) {
 				//Establezco valor para variable booleana esPrimo en true al inicio de cada iteracion del bucle principal
 				esPrimo=true;
 				
-				//bucle para comprobar si es o no primo
+				//bucle para comprobar que no es primo
+				//declaro variable j y la inicializo con valor 2
+				//establezco de condicion de bucle j menor que i
+				//establezco el incremento en i+1
 				for (int j=2; j<i; j++) {
 				
 				// Si el número es divisible por i (dando resto 0) deja de ser primo y variable esPrimo pasa a ser false
@@ -58,10 +62,10 @@ public class Ejercicio2 {
 			System.out.println("Hay " + (k) + " numeros primos en ese rango.");
 			
 
-			//De no ser variable numeroIntroducido mayor a 0 imprimo mensaje por pantala diciendole al usuario
+			//De no ser variable numeroIntroducido mayor a 0 imprimo mensaje por pantalla diciendole al usuario
 			//que no ha introducido un numero entero positivo
 		} else {
-			System.out.println("No ha introducido un entero positivo");
+			System.out.println("No ha introducido un numero entero positivo");
 		}
 
 		//Cierro Scanner

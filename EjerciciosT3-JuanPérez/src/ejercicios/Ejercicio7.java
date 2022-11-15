@@ -6,7 +6,7 @@ public class Ejercicio7 {
 
 	public static void main(String[] args) {
 		
-		int numeroIntroducido=0;
+		int numeroIntroducido;
 		
 		Scanner dogma = new Scanner(System.in);
 		
@@ -15,19 +15,20 @@ public class Ejercicio7 {
 		numeroIntroducido = dogma.nextInt();
 		
 		for (int i=1; i<=numeroIntroducido; i++) {
+			System.out.println();
 			
+			for (int e=1; e<=numeroIntroducido; e++) {
+				System.out.print(e);
+			}
 			
-			for (int e=1; e<=i; e++) {
-				System.out.print(i);
-			}
-				for (int e=i; e<=i; e++) {
-				System.out.println();
-			}
+				for (int k=numeroIntroducido-1; k>0; k--) {
+				System.out.print(k);
+				}
 			
 		}
 		
 		dogma.close();
-
+		
 
 	}
 

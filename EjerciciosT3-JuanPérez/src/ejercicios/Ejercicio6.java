@@ -22,7 +22,7 @@ public class Ejercicio6 {
 			}
 				for (int e=i; e<=i; e++) {
 				System.out.println();
-			}
+				}
 			
 		}
 		
