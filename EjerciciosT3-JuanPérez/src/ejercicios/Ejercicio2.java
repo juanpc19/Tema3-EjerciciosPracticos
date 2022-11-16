@@ -59,13 +59,13 @@ public class Ejercicio2 {
 			}
 			
 			//Al finalizar el bucle imprimo mensaje por pantalla indicando la cantidad de numeros primos con variable k
-			System.out.println("Hay " + (k) + " numeros primos en ese rango.");
+			System.out.println("Hay " + (k) + " numeros primos desde 1 hasta el numero introducido.");
 			
 
 			//De no ser variable numeroIntroducido mayor a 0 imprimo mensaje por pantalla diciendole al usuario
 			//que no ha introducido un numero entero positivo
 		} else {
-			System.out.println("No ha introducido un numero entero positivo");
+			System.out.println("No ha introducido un numero entero positivo.");
 		}
 
 		//Cierro Scanner

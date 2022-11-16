@@ -10,29 +10,34 @@ public class Ejercicio8 {
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.print("Dime un numero inicial: ");
+		System.out.print("Introduzca un numero inicial mayor a 0 para iniciar el programa o igual a 0 para finalizarlo: ");
 		
 		numeroIntroducido = dogma.nextInt();
 		
-		do {
-			
-			System.out.print("Dime un numero: ");
-			
-			numeroIntroducido = dogma.nextInt();
-			
-			k++;
-			
-			if ((numeroIntroducido<=numeroMayor) && (numeroIntroducido!=0)) {
-				System.out.println("Fallo es menor. ");
-				
-				c++;
-				
-			}  
-			
-			numeroMayor = numeroIntroducido;
-			
-		} while (numeroIntroducido!=0);
+		if (numeroIntroducido<=0) {
+			System.out.print("Error, introduzca un numero igual o mayor a 0: ");
+		} else {
 		
+			do {
+				
+				System.out.print("Introduzca un numero: ");
+				
+				numeroIntroducido = dogma.nextInt();
+				
+				k++;
+				
+				if ((numeroIntroducido<=numeroMayor) && (numeroIntroducido!=0)) {
+					System.out.println("Fallo es menor. ");
+					
+					c++;
+					
+				}  
+				
+				numeroMayor = numeroIntroducido;
+				
+			} while (numeroIntroducido!=0);
+		
+		}
 		System.out.println("Total de numeros introducidos: " + k);
 		
 		System.out.println("Numeros fallados: " + c);

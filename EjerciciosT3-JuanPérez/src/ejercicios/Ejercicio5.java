@@ -31,6 +31,14 @@ public class Ejercicio5 {
 		//Asigno el valor dado por el usuario a la variable numeroA mediante el Scanner
 		numeroB = dogma.nextInt();
 		
+		//Establezco condicion que dara mensaje de error al introducir un numero no positivo
+		//para variable numeroA o para variable numeroB
+		if ((numeroA<=0) || (numeroB<=0)) {
+			System.out.print("Error introduzca un numero positivo para numeroA y para numeroB: ");
+			
+		//De introducir numeros positivos para ambas variables entra en el bucle
+		} else {
+			
 		//Establezco de condicion si numeroA menor que numeroB
 		if (numeroA<numeroB) {
 				
@@ -50,7 +58,7 @@ public class Ejercicio5 {
 			
 		//Creo bucle para aumentar valor de i
 		//Declaro e Inicializo variable i con valor igual a variable numeroMayor
-		//Establezco de condicion i mayor que 0 
+		//Establezco de condicion i mayor que 0 para hacer iteraciones infinitas a menos que haga break
 		//Doy al incremento un valor de +1
 		for (int i=numeroMayor; i>0; i++) {
 			
@@ -62,7 +70,7 @@ public class Ejercicio5 {
 				break;
 					}
 				}
-		
+		}
 		//Imprimo mensaje por pantalla mostrando el minimo comun multiplo con variable mcm
 			System.out.print("El minimo comun multiplo es: " +mcm);
 			

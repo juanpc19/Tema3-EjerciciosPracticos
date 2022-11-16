@@ -29,6 +29,14 @@ public class Ejercicio4 {
 		//Asigno el valor dado por el usuario a la variable numeroB mediante el Scanner
 		numeroB = dogma.nextInt();
 		
+		//Establezco condicion que dara mensaje de error al introducir un numero no positivo
+		//Para variable numeoA o para variable numeroB
+		if ((numeroA<=0) || (numeroB<=0)) {
+			System.out.print("Error introduzca un numero positivo para numeroA y para numeroB: ");
+			
+		//De introducir numeros positivos para ambas variables entra en el bucle
+		} else {
+		
 		//Establezco condicion numeroA menor que numeroB que de cumplirse dara a variable numeroMenor el valor de variable numeroA
 		if (numeroA<numeroB) {
 			
@@ -42,7 +50,7 @@ public class Ejercicio4 {
 		
 		//Creo bucle que ira dando de forma decreciente valor a variable i
 		//Declaro e Inicializo variable i con valor igual a variable numeroMenor
-		//Establezco de condicion i mayor que 0 
+		//Establezco de condicion i mayor que 0 para hacer iteraciones infinitas a menos que haga break
 		//Doy al incremento un valor de -1
 		for (int i=numeroMenor; i>0; i--) {
 			
@@ -54,7 +62,7 @@ public class Ejercicio4 {
 				break;
 					}
 				}
-		
+		}
 		//Imprimo mensaje por pantalla mostrando el minimo comun divisor con variable mcd
 			System.out.print("El máximo común divisor es: " + mcd);
 			

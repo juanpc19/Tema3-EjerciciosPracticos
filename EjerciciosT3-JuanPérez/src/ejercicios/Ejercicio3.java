@@ -12,10 +12,17 @@ public class Ejercicio3 {
 		Scanner dogma = new Scanner(System.in);
 		
 		//Solicito un numero al usuario
-		System.out.print("Introduzca un numero que representara la base y la altura del triangulo: ");
+		System.out.print("Introduzca un numero positivo que representara la base y la altura del triangulo: ");
 		
 		//Asigno el valor dado por el usuario a la variable numeroIntroducido mediante el Scanner
 		numeroIntroducido = dogma.nextInt();
+		
+		//Establezco condicion que dara mensaje de error al introducir un numero no positivo
+		if (numeroIntroducido<=0) {
+			System.out.print("Error, Introduzca un numero positivo.");
+			
+			//De ser el numero introducido positivo entro en  el bucle
+		} else {
 		
 		//Creo un for para hacer salto de linea, se completa tras finalizar los bucles dentro de el.
 		//valor inicial de variable i igual a 1 (1=primera linea o print).
@@ -45,8 +52,8 @@ public class Ejercicio3 {
 			
 		System.out.println("");
 		
+			}
 		}
-		
 		//Cierro Scanner
 		dogma.close();
 
