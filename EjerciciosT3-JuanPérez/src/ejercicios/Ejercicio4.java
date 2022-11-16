@@ -10,9 +10,11 @@ public class Ejercicio4 {
 		
 		int numeroB; //Declaro variable en la que guardare el numero B
 		
-		int numeroMenor=0; //Declaro variable en la que guardare el numero mas pequeño, A o B
+		int numeroMenor=0; //Declaro variable en la que guardare el numero mas pequeño,
+		// A o B y la inicializo con valor 0
 		
 		int mcd=0;  //Declaro variable en la que guardare el minimo comun divisor
+		// y la inicializo con valor 0 
 		
 		//Creo un Scanner, lo nombro dogma y lo importo
 		Scanner dogma = new Scanner(System.in);
@@ -42,7 +44,7 @@ public class Ejercicio4 {
 			
 			numeroMenor=numeroA;
 			
-			//Establezco condicion numeroB menor que numeroA que de cumplirse dara a variable numeroMenor el valor de variable numeroB
+		//Establezco condicion numeroB menor que numeroA que de cumplirse dara a variable numeroMenor el valor de variable numeroB
 		} else if (numeroB<numeroA) {
 			
 			numeroMenor=numeroB;
@@ -64,7 +66,7 @@ public class Ejercicio4 {
 				}
 		}
 		//Imprimo mensaje por pantalla mostrando el minimo comun divisor con variable mcd
-			System.out.print("El máximo común divisor es: " + mcd);
+		System.out.print("El máximo común divisor es: " + mcd);
 			
 		//Cierro Scanner
 		dogma.close();

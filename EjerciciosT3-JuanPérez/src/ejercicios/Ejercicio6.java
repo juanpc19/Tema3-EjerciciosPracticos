@@ -6,7 +6,7 @@ public class Ejercicio6 {
 
 	public static void main(String[] args) {
 		
-		int numeroIntroducido;//Declaro la variable donde guardare el numeroIntroducido por el ususario
+		int numeroIntroducido;//Declaro la variable donde guardare el numeroIntroducido por el usuario
 		
 		//Creo un Scanner, lo nombro dogma y lo importo
 		Scanner dogma = new Scanner(System.in);

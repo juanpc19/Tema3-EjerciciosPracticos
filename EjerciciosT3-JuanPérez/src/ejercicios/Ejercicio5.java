@@ -10,11 +10,13 @@ public class Ejercicio5 {
 		
 		int numeroB;//Declaro variable en la que guardare el numero B
 		
-		int numeroMayor=0; //Declaro variable en la que guardare el numero mas pequeño, A o B
+		int numeroMayor=0; //Declaro variable en la que guardare el numero mas pequeño,
+		//A o B y la inicializo con valor 0
 		
-		int numeroMenor=0;  //Declaro variable en la que guardare el numero mas pequeño, A o B
+		int numeroMenor=0; //Declaro variable en la que guardare el numero mas pequeño,
+		//A o B y la inicializo con valor 0
 		
-		int mcm=0;  //Declaro variable en la que guardare el minimo comun multiplo
+		int mcm=0; //Declaro variable en la que guardare el minimo comun multiplo y la inicializo con valor 0
 		
 		//Creo un Scanner, lo nombro dogma y lo importo
 		Scanner dogma = new Scanner(System.in);
@@ -72,7 +74,7 @@ public class Ejercicio5 {
 				}
 		}
 		//Imprimo mensaje por pantalla mostrando el minimo comun multiplo con variable mcm
-			System.out.print("El minimo comun multiplo es: " +mcm);
+		System.out.print("El minimo comun multiplo es: " +mcm);
 			
 		//Cierro Scanner
 		dogma.close();

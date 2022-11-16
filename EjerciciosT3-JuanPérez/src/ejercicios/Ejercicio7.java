@@ -46,8 +46,11 @@ public class Ejercicio7 {
 				//Establezco de condicion e mayor a 0 para disminuir valor de e hasta 1
 				//Disminucion de e igual a -1
 				for (int e=i-1; e>0; e--) {
+					
+				//mensaje por pantalla con valor de variable e
 				System.out.print(e);
 				}
+				//salto de linea en pantalla
 				System.out.println();
 			}
 		}

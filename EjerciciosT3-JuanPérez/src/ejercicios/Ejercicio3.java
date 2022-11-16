@@ -21,7 +21,7 @@ public class Ejercicio3 {
 		if (numeroIntroducido<=0) {
 			System.out.print("Error, Introduzca un numero positivo.");
 			
-			//De ser el numero introducido positivo entro en  el bucle
+		//De ser el numero introducido positivo entro en  el bucle
 		} else {
 		
 		//Creo un for para hacer salto de linea, se completa tras finalizar los bucles dentro de el.
