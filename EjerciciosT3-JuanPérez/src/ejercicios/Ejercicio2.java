@@ -52,7 +52,7 @@ public class Ejercicio2 {
 				}//Cierro el for que determina si no es primo
 				
 				// Si variable esPrimo sigue siendo true añado +1 a variable k usada como contador
-				if (esPrimo) {
+				if (esPrimo==true) {
 					k++;
 					}
 				
