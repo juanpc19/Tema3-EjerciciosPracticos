@@ -3,6 +3,32 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio8 {
+	
+		//0 ejecuciones de bucle: VALOR: numeroIntroducido: 0 
+		// RESULTADO ESPERADO: 
+		//Total de numeros introducidos: 0
+		//Numeros fallados: 0
+		// RESULTADO OBTENIDO:
+		//Total de numeros introducidos: 0
+		//Numeros fallados: 0
+
+		//1 ejecucion de bucle: VALOR: numeroIntroducido: 2 numeroIntroducido: 0 
+		// RESULTADO ESPERADO: 
+		//Total de numeros introducidos: 1
+		//Numeros fallados: 0
+		// RESULTADO OBTENIDO: 
+		//Total de numeros introducidos: 1
+		//Numeros fallados: 0
+		    
+		//Maximo de ejecuciones de bucle: VALOR: numeroIntroducido: 2 numeroIntroducido: 3 numeroIntroducido: 0
+		// RESULTADO ESPERADO: 
+		//Total de numeros introducidos: 2
+		//Numeros fallados: 0
+		// RESULTADO OBTENIDO: 
+		//Total de numeros introducidos: 2
+		//Numeros fallados: 0
+		
+		//Valor intermedio de ejecuciones de bucle:  No se puede hacer VALOR:  / RESULTADO ESPERADO:  / RESULTADO OBTENIDO:
 
 	public static void main(String[] args) {
 

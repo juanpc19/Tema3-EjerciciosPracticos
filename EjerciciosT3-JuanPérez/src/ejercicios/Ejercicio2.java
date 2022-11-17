@@ -3,6 +3,21 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio2 {
+	
+	//0 ejecuciones de bucle: VALOR: numeroIntroducido: 1 
+	// RESULTADO ESPERADO: Hay 0 numeros primos desde 1 hasta el numero introducido.  
+	// RESULTADO OBTENIDO: Hay 0 numeros primos desde 1 hasta el numero introducido.
+    
+	//1 ejecucion de bucle: VALOR: numeroIntroducido: 2  
+	// RESULTADO ESPERADO: Hay 1 numeros primos desde 1 hasta el numero introducido.
+	// RESULTADO OBTENIDO: Hay 1 numeros primos desde 1 hasta el numero introducido.
+	    
+	//Maximo de ejecuciones de bucle: VALOR: numeroIntroducido: 20  
+	// RESULTADO ESPERADO: Hay 8 numeros primos desde 1 hasta el numero introducido
+	// RESULTADO OBTENIDO: Hay 8 numeros primos desde 1 hasta el numero introducido
+	    
+	//Valor intermedio de ejecuciones de bucle: No se puede VALOR:  / RESULTADO ESPERADO:  / RESULTADO OBTENIDO:
+
 
 	public static void main(String[] args) {
 

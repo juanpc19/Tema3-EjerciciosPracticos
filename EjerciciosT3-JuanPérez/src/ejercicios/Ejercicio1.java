@@ -3,6 +3,17 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio1 {
+	
+	//0 ejecuciones de bucle: VALOR: horas: 12 minutos: 12 segundos: 12 incrementoSegundos = 0  
+	/// RESULTADO ESPERADO: 12:12:12 / RESULTADO OBTENIDO: 12:12:12
+	
+	//1 ejecucion de bucle: VALOR: horas: 12 minutos: 12 segundos: 12 incrementoSegundos = 1
+	// RESULTADO ESPERADO: 12:12:13  / RESULTADO OBTENIDO: 12:12:13
+	
+	//Maximo de ejecuciones de bucle: VALOR: horas: 12 minutos: 12 segundos: 12 incrementoSegundos = 3665
+	// RESULTADO ESPERADO: 13:13:17  / RESULTADO OBTENIDO: 13:13:17
+	
+	//Valor intermedio de ejecuciones de bucle: No se puede hacer VALOR:  / RESULTADO ESPERADO:  / RESULTADO OBTENIDO:
 
 	public static void main(String[] args) {
 

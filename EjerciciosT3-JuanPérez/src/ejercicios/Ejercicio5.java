@@ -3,6 +3,23 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio5 {
+	
+			//0 ejecuciones de bucle: VALOR: numeroA: 5 numeroB: 5
+			// RESULTADO ESPERADO: El minimo comun multiplo es: 0
+			// RESULTADO OBTENIDO: El minimo comun multiplo es: 0
+		    
+			//1 ejecucion de bucle: VALOR: numeroA: 10 numeroB: 5
+			// RESULTADO ESPERADO: El minimo comun multiplo es: 10
+			// RESULTADO OBTENIDO: El minimo comun multiplo es: 10
+			    
+			//Maximo de ejecuciones de bucle: No se puede hacer, es bucle infinito por lo que no puede tener iteraciones maximas
+			// RESULTADO ESPERADO: 
+			// RESULTADO OBTENIDO: 
+			    
+			//Valor intermedio de ejecuciones de bucle: VALOR: numeroA: 4 numeroB: 6
+			// RESULTADO ESPERADO: El minimo comun multiplo es: 12
+			// RESULTADO OBTENIDO: El minimo comun multiplo es: 12
+
 
 	public static void main(String[] args) {
 

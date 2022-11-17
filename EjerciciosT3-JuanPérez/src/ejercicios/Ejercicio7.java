@@ -3,6 +3,31 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio7 {
+	
+	//0 ejecuciones de bucle: imposible hacer
+	// RESULTADO ESPERADO:  
+	// RESULTADO OBTENIDO:
+    
+	//1 ejecucion de bucle: VALOR: numeroIntroducido: 1  
+	// RESULTADO ESPERADO: 1
+	// RESULTADO OBTENIDO: 1
+	    
+	//Maximo de ejecuciones de bucle: VALOR: numeroIntroducido: 5  
+	// RESULTADO ESPERADO:
+	//1
+	//121
+	//12321
+	//1234321
+	//123454321
+
+	// RESULTADO OBTENIDO: 
+	//1
+	//121
+	//12321
+	//1234321
+	//123454321
+	    
+	//Valor intermedio de ejecuciones de bucle:  No se puede hacer VALOR:  / RESULTADO ESPERADO:  / RESULTADO OBTENIDO:
 
 	public static void main(String[] args) {
 		

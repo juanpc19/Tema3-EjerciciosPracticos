@@ -3,6 +3,30 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio3 {
+	
+		//0 ejecuciones de bucle: VALOR: numeroIntroducido: 0 
+		// RESULTADO ESPERADO: Finalizacion del programa  
+		// RESULTADO OBTENIDO: Finalizacion del programa  
+	    
+		//1 ejecucion de bucle: VALOR: numeroIntroducido: 1  
+		// RESULTADO ESPERADO:*
+		// RESULTADO OBTENIDO:*
+		    
+		//Maximo de ejecuciones de bucle: VALOR: numeroIntroducido: 5  
+		// RESULTADO ESPERADO:   
+	    //* 
+	   //* * 
+	  //* * * 
+	 //* * * * 
+    //* * * * * 
+		// RESULTADO OBTENIDO:    
+	    //* 
+	   //* * 
+	  //* * * 
+	 //* * * * 
+    //* * * * * 
+	
+	//Valor intermedio de ejecuciones de bucle: VALOR: No se puede hacer 
 
 	public static void main(String[] args) {
 
@@ -18,8 +42,8 @@ public class Ejercicio3 {
 		numeroIntroducido = dogma.nextInt();
 		
 		//Establezco condicion que dara mensaje de error al introducir un numero no positivo
-		if (numeroIntroducido<=0) {
-			System.out.print("Error, Introduzca un numero positivo.");
+		if (numeroIntroducido<0) {
+			System.out.print("Error, Introduzca un numero igual o mayor que 0.");
 			
 		//De ser el numero introducido positivo entro en  el bucle
 		} else {

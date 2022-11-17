@@ -3,6 +3,20 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio10 {
+	
+		//0 ejecuciones de bucle: VALOR: numeroIntroducido: 0 
+		// RESULTADO ESPERADO: El numero es capicua.
+		// RESULTADO OBTENIDO: El numero es capicua.
+	    
+		//1 ejecucion de bucle: VALOR: numeroIntroducido: 1  
+		// RESULTADO ESPERADO: El numero es capicua.
+		// RESULTADO OBTENIDO: El numero es capicua.
+		    
+		//Maximo de ejecuciones de bucle: VALOR: numeroIntroducido: 353 
+		// RESULTADO ESPERADO: El numero es capicua.
+		// RESULTADO OBTENIDO: El numero es capicua.
+		    
+		//Valor intermedio de ejecuciones de bucle: No se puede hacer VALOR:  / RESULTADO ESPERADO:  / RESULTADO OBTENIDO:
 
 	public static void main(String[] args) {
 		
@@ -50,7 +64,7 @@ public class Ejercicio10 {
 			//Doy valor a variable auxiliar igual a variable auxiliar dividido entre 10
 			//Da nuevo valor a auxiliar para extraer siguiente cifra o finalizar bucle
 			auxiliar = auxiliar/10;
-				}
+			}
 			
 			//Establezco la concicion numeroIntroducido igual a inverso
 			if (numeroIntroducido==inverso) {

@@ -3,6 +3,22 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio4 {
+	
+		//0 ejecuciones de bucle: VALOR: numeroA: 5 numeroB: 5
+		// RESULTADO ESPERADO: El máximo común divisor es: 0
+		// RESULTADO OBTENIDO: El máximo común divisor es: 0
+	    
+		//1 ejecucion de bucle: VALOR: numeroA: 10 numeroB: 5
+		// RESULTADO ESPERADO: El máximo común divisor es: 5
+		// RESULTADO OBTENIDO: El máximo común divisor es: 5
+		    
+		//Maximo de ejecuciones de bucle: VALOR: numeroA: 4 numeroB: 81
+		// RESULTADO ESPERADO: El máximo común divisor es: 1
+		// RESULTADO OBTENIDO: El máximo común divisor es: 1
+		    
+		//Valor intermedio de ejecuciones de bucle: VALOR: numeroA: 4 numeroB: 6
+		// RESULTADO ESPERADO: El máximo común divisor es: 2
+		// RESULTADO OBTENIDO: El máximo común divisor es: 2
 
 	public static void main(String[] args) {
 		
